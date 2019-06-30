@@ -825,6 +825,13 @@ input:required {
   background-color: #fc6060;
   margin-bottom: 30px; }
 
+.pseudoline {
+  height: 3px;
+  width: 70px;
+  background-color: white;
+  margin-bottom: 30px; 
+}
+
 .about-video-area {
   position: relative;
   z-index: 1;
