@@ -28,27 +28,22 @@ html,
 body {
   height: 100%;
 /*  background-color: #333;*/
-
+/*  background-image: url(newyork.jpg);*/
+  text-align: center;
 }
-
-.bodyid{
-}
-
-/*.bodyid:before {
-  background-image: url(newyork.jpg);
-  background-position: 50% 20%;  
-} */
 
 .bodyid::after {
   content: "";
-  background: url(newyork.jpg);
-  filter: brightness(0.6);
-  top: -17%;
-  left: -58%;
+  background: url(newyork2.jpg);
+  background-size: 2500px;
+  filter: brightness(0.5);
+  top: -20rem;
+  left: -30rem;
   bottom: 0;
   right: 0;
   position: absolute;
   z-index: -1;   
+  text-align: center;
 }
 
 body {
@@ -62,6 +57,7 @@ body {
 .cover-container {
   max-width: 42em;
 }
+
 
 /*
  * Header
