@@ -36,15 +36,15 @@ body {
   /*  4096 by 2384*/
   content: "";
   background: url(newyork2.jpg);
-  background-size: 2500px;
+  background-size: 2500.0px;
   filter: brightness(0.5);
   position: fixed;
   top: 50%;
   left: 50%;
   bottom: 0;
   right: 0;
-  margin-top: -728px;
-  margin-left: -1250px;
+  margin-top: calc(((-2500.0px/4096.0)*2384)/2);
+  margin-left: calc(-2500.0px / 2);
   z-index: -1;   
   text-align: center;
 }

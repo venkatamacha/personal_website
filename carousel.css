@@ -9,15 +9,19 @@ body {
 }
 
 .carouselid::after {
+  /*  5865 by 3910*/
   content: "";
   background: url(sanfrancisco.jpg);
-  background-size: 2500px;
+  background-size: 2500.0px;
   filter: brightness(0.6);
-  top: -20rem;
-  left: -30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   bottom: 0;
   right: 0;
-  position: absolute;
+/*  margin-top: -833px;*/
+  margin-top: calc(((-2500.0px/5865.0)*3910)/2);
+  margin-left: calc(-2500.0px / 2);
   z-index: -1;   
   text-align: center;
 }
