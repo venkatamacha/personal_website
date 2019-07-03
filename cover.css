@@ -33,15 +33,18 @@ body {
 }
 
 .bodyid::after {
+  /*  4096 by 2384*/
   content: "";
   background: url(newyork2.jpg);
   background-size: 2500px;
   filter: brightness(0.5);
-  top: -20rem;
-  left: -30rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
   bottom: 0;
   right: 0;
-  position: absolute;
+  margin-top: -728px;
+  margin-left: -1250px;
   z-index: -1;   
   text-align: center;
 }

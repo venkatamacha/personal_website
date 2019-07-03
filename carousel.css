@@ -8,6 +8,20 @@ body {
   color: #5a5a5a;
 }
 
+.carouselid::after {
+  content: "";
+  background: url(sanfrancisco.jpg);
+  background-size: 2500px;
+  filter: brightness(0.6);
+  top: -20rem;
+  left: -30rem;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  text-align: center;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
