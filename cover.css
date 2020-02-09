@@ -35,7 +35,7 @@ body {
 .bodyid::after {
   /*  4096 by 2384*/
   content: "";
-  background: url(newyork2.jpg);
+  background: url(newyork3.jpg);
   background-size: 2500.0px;
   filter: brightness(0.5);
   position: fixed;
