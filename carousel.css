@@ -1,4 +1,4 @@
-/* GLOBAL STYLES
+/* GLOBAL STYL3
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -11,11 +11,11 @@ body {
 .carouselid::after {
   /*  5865 by 3910*/
   content: "";
-  background: url(sanfrancisco.jpg);
+  background: url(newyorkmain.jpg);
   background-size: 2500.0px;
-  filter: brightness(0.6);
+  filter: brightness(0.5);
   position: absolute;
-  top: 50%;
+  top: 97%;
   left: 50%;
   bottom: 0;
   right: 0;
