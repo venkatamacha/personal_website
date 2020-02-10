@@ -13,7 +13,7 @@ body {
   content: "";
   background: url(newyorkmain.jpg);
   background-size: 2500.0px;
-  filter: brightness(0.5);
+  filter: brightness(0.6);
   position: absolute;
   top: 97%;
   left: 50%;
